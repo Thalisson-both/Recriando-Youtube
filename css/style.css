@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    background-color: white;
+    font-family: roboto;
+}
+header{
+    width: 1350px;
+    height:56px;
+    display: inline-flex;
+    padding: 0px,24px;
+    justify-content: space-between;   
+    align-items: baseline;
+}
+.menu{
+    padding-right: 35px;
+}
+
+.icones{
+    display: flex;
+    width: 160px;
+    height: 24px;
+    margin-top: 16px;
+    margin-left: 12px;
+    align-items: center;
+}
+.pesquisa{
+  display: flex;
+  align-items: center;
+
+}
+.pesquisa input{
+    width: 348px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    padding: 0;
+}
+.pesquisa button{
+    width: 57px;
+    height: 42px;
+    border: 1px solid #cccccc;
+    padding: 0;
+}
+.microfone{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.microfone img{
+    align-items: center;
+    height: 27px;
+}
+.pesquisa img{
+    width: 34px;
+}
+.atalho{
+    display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    width: 130px;
+    height: 34px;
+    margin-right: 24px;
+}
+.atalho button{
+    border: 0;
+    padding: 0;
+}
+.perfil{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.conteudos{
+    margin-top: 28px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.video-actions{
+    width: 902px;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+}
+.comandos{
+    display: flex;
+    width: 160px;
+    height: 42px;
+}
+.canal{
+    display: flex;
+    align-items: center;
+}
+.canal p{
+    width: 142px;
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 6px;
+    padding-top: 8%;
+}
+.botoes{
+    display: flex;
+    height: 42px;
+    align-items: center;
+    gap: 35px;
+}
+.textos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin: 0;
+    width: 110px;
+}
+.inscreva{
+    width: 159px;
+    height: 40px;
+    background-color: #cc0000;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+}
+.botoes button{
+    border: 0;
+}
+.descricao{
+    font-size: 14px;
+    padding-top: 14px;
+}
+.resumo{
+    width: 610px;
+    color: #515151;
+}
+.lateral{
+   width: 160px;
+   height: 938px;
+   position: absolute;
+   left: 1052px;
+   top: 84px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 6px; 
+}
+.outros{
+    display: flex;
+    font-size: 12px;
+    width: 160px;
+    height: 95px;   
+}
+.outros p{
+    margin: 0;
+    color: #515151;
+    padding: 0 0 8px 8px;
+}
+.outros image{
+    width: 160px;
+    height: 95px;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+}
+b{
+    color: black;
+}
+
+
